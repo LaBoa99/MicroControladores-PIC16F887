@@ -1,7 +1,13 @@
-#include <math.h>
-#include <pic16f887.h>
+/**
+    PRACTICA #1
+    
+    EQUIPO:
+    CLAUDIO GAEL RODRIGUEZ VEGA #221943339
+    ANGEL DE JESUS DOMINGO CABRERA #218483572
+    JOSE EMANUEL GARIBALDO PADILLA #218579952
+*/
+
 #include <stdio.h>
-#include <stdlib.h>
 #include <xc.h>
 
 // Definiciones del PIC16F887
@@ -30,8 +36,7 @@ void main(void) {
 
     // Bucle infinito
     while (1) {
-        // Operacio XOR sobre puerto A
-        PORTB = PORTA ^ 0xFF;
+        PORTB = PORTA;
     }
 
     return;
